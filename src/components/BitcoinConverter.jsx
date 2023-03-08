@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-const CurrentConversionRates = () => {
+const BitcoinConverter = () => {
   const [conversionRates, setConversionRates] = useState(null);
   const [convertUsdToBtc, setConvertUsdToBtc] = useState(null);
   const [convertBtcToUsd, setConvertBtcToUsd] = useState(null);
@@ -155,4 +155,4 @@ const CurrentConversionRates = () => {
   );
 };
 
-export default CurrentConversionRates;
+export default BitcoinConverter;
