@@ -1,16 +1,15 @@
-import React from "react";
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootswatch/dist/pulse/bootstrap.min.css';
 
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootswatch/dist/pulse/bootstrap.min.css";
-
-import BitcoinConverter from "./components/BitcoinConverter";
+import BitcoinConverter from './components/BitcoinConverter';
 
 const App = () => {
-  return (
-    <>
-      <BitcoinConverter />
-    </>
-  );
+	return (
+		<>
+			<BitcoinConverter />
+		</>
+	);
 };
 
 export default App;
